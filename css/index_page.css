@@ -1,0 +1,367 @@
+
+/* main section stillari */
+
+.main_banner{
+    /*background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position: center;*/
+ 
+}
+
+#main_section{
+    height: 900px;
+    width: 100%;
+    
+    
+    
+}
+.main_section_text{
+    padding:  1.875rem;
+    float: left;
+    margin-top: 6.25rem;
+}
+.main_section_text1{
+    color: rgb(5,54,77);
+    text-transform: uppercase;
+}
+.social_networks a{
+    
+    color: grey ;
+    text-decoration: none;
+    font-size: 1.875rem;
+    display: inline-block;
+    padding: 0.625rem;
+    cursor: pointer;
+}
+.social_networks a:hover{
+    color: brown;
+}
+.button1{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 12.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin-top: 1.875rem;
+    
+    
+}
+
+.button1:hover {
+    background-position: right center;
+    color: #fff;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+.button1 a:hover{
+    color: brown;
+}
+
+
+.profile_photo{
+    width: 50%;
+    height: 700px;
+    float: right;
+    margin-top: 6.25rem;
+    
+  
+    
+}
+
+
+
+/* portofilo section stillari*/
+
+#portofilo_section{
+    color: #797979;
+    width: 100%;
+    height: auto;
+    margin-top: 12.5rem;
+    
+    
+    
+       
+}
+.portofilo_section_data{
+    margin-left: 1.875rem;
+}
+
+.portofilo_section_text{
+    margin-top: 1.875rem;
+}
+
+.blur-line{
+    width: 6.25rem;
+    height: 5px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 0.3125rem;
+    filter: blur(0.3125rem);
+}
+
+
+#portofilo_section h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    
+}
+
+#portofilo_section h1{
+    text-transform: capitalize;
+}
+
+
+.portofilo_navbar_item{
+    padding-left: 0;
+}
+.portofilo_item{
+    display: inline-block;
+    margin-right: 2.5rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+    
+    
+}
+.portofilo_item a{
+    text-decoration-line: none;
+}
+
+.hammasi_menu{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 1.25rem;
+    
+    
+}
+
+.hammasi_item1 {
+    display: inline-block;
+    position: relative;
+    padding: 0.625rem;
+   
+  
+}
+
+.p1 {
+    width: 458px;
+}
+
+
+.hammasi_item2 {
+    position: absolute;
+    display: inline-block;
+    padding: 0.625rem;
+   
+}
+
+.p4 {
+    width: 570px ;
+    height: 369px;
+
+}
+
+.hammasi_item3 {
+    position: absolute;
+    display: inline-block;
+    top: 379px;
+    padding: 0.625rem;
+    
+}
+
+.p3 {
+    height: 331px;
+}
+
+.hammasi_item4 {
+    position: absolute;
+    display: inline-block;
+    top: 379px;
+    left: 765px;
+    padding: 0.625rem;
+    margin-left: 0.3125rem;
+    
+}
+
+.p2 {
+    height: 331px;
+}
+
+.overlay{
+    background-color: #05364d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    z-index: 1;
+}
+.short_info{
+    position: absolute;
+    color: #c91010;
+    opacity: 100%;
+    visibility: hidden;
+    bottom: 44px;
+    left: 80px;
+    z-index: 1;
+}
+
+.short_info a{
+    text-decoration: none;
+}
+.hammasi_item1:hover .overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+    background: rgba(19,69,230,0.9);
+}
+.hammasi_item1:hover .short_info{
+    visibility: visible;
+    color: aliceblue;
+    bottom: 24px;
+    left: 120px;
+}
+
+.hammasi_item2:hover .overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+    background: rgba(19,69,230,0.9);
+}
+.hammasi_item2:hover .short_info{
+    visibility: visible;
+    color: aliceblue;
+    bottom: 24px;
+    left: 120px;
+}
+
+.hammasi_item3:hover .overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+    background: rgba(19,69,230,0.9);
+}
+.hammasi_item3:hover .short_info{
+    visibility: visible;
+    color: aliceblue;
+    bottom: 24px;
+    left: 120px;
+}
+
+.hammasi_item4:hover .overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+    background: rgba(19,69,230,0.9);
+}
+.hammasi_item4:hover .short_info{
+    visibility: visible;
+    color: aliceblue;
+    bottom: 24px;
+    left: 120px;
+}
+
+/* blog section stillari*/
+#blog{
+    margin-left: 1.875rem;
+    margin-top: 4.375rem;
+    
+}
+
+.blog_section_title h4 {
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+.blog_section_title h1{
+    text-transform: capitalize;
+
+}
+
+.blog_section_data{
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 1.875rem;
+    
+    
+}
+.blog_section_text{
+    
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.3125rem;
+}
+.blog_section_text h4{
+    display: inline-block;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    color: rgb(5,54,77);
+}
+.blog_section_text h2, p{
+    color: rgb(5,54,77);
+}
+
+.blog_section_text h3{
+    display: inline-block;
+    color: #05364d;
+    text-transform: uppercase;
+}
+.gradient_line{
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(to right, red, blue);
+    display: block;
+
+}
+
+.blog_section_rasm{
+    display: inline-block;
+    overflow: hidden;
+    
+  
+}
+.blog_section_rasm img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog_section_data:hover .section_rasm{
+    transform: scale(1.2);
+    
+}
+.blog_section_text h3:hover{
+    color: rgb(237,35,168);
+
+}
+.blog_section_text h3:hover .blog_section_rasm img{
+    transform: scale(1.2);
+}
+.blog_section_data:hover {
+    box-shadow: 5px 5px 10px rosybrown;
+}
+
+
+/* partners section stillari*/
+.partners{
+    margin-top: 12.5rem;
+    
+}
+.partner_logo{
+    padding: 0 1.875rem;
+    display: inline-block;
+}

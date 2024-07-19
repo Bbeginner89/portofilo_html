@@ -1,0 +1,146 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 16px;
+    /*background-image: url(/images/banner.jpg);*/
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1140px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    position: relative;
+    
+   
+}
+
+/* navigation bar stillari */
+.main_header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.home_menu{
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    height: 6.25rem;
+    box-shadow:   0 0.3125rem 0.625rem rgb(176, 167, 167);
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+ 
+}
+.main_navigation{
+    
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.header_logo {
+    display: inline-block;
+    
+    vertical-align: middle;
+
+}
+.header_logo img{
+    display: block;
+    width: 1.875rem;
+    
+    
+   
+}
+.navigation_bar{
+    display: inline-block;
+    
+}
+
+.navigation_item{
+    display: inline-block;
+    padding: 0.625rem;
+
+}
+.navigation_item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 100%;
+    color: rgb(5,54,77);
+    
+}
+.navigation_item a:hover{
+    color: cornflowerblue;
+}
+.navigation_item a:active{
+    color: red;
+}
+
+
+/* footer menu stillari*/
+.main_footer{
+    background-color: #021017;
+    margin-top: 6.25rem;
+    height: auto;
+    padding: 3.125rem 0;
+    text-align: center;
+}
+.footer_logo img{
+    width: 6.25rem;
+    border: 1px red
+}
+
+@media only screen and (max-width:992px) {
+    body{
+        font-size: 12px;
+        
+    }
+    .container{
+        
+        max-width: 992px;
+        width: 99vw;
+       
+        
+       
+    }
+
+    .main_navigation{
+        display: none;
+    }
+    .home_menu{
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .button1 {
+        display: none;
+    }
+    /*main section*/
+    .main_section_rasm{
+        display: none;  
+    }
+    .main_banner{
+        background-image: none;
+        
+    } 
+
+
+    /*portfolio section*/
+    .portfolio_section {
+        width: 100%;
+        margin-top: 6rem;
+    }
+    
+    
+
+
+}
+
+
+@media only screen and (max-width:676px) {
+    body{
+        font-size: 12px;
+    }
+    

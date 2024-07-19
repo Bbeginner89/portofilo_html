@@ -1,0 +1,53 @@
+body{
+    background-image: url(/images/banner2.jpg);
+    background-size: auto;
+}
+.form{
+    margin-top: 3.125rem;
+    width: 100%;
+      
+}
+.contact_textarea{
+    display: inline-block;
+    width: 800px;
+    box-sizing: border-box;
+}
+
+.contact_input1{
+    display: inline-block;
+    width: 375px ;
+    height: 40px;
+    margin-top: 1.25rem;
+    margin-right: 2.875rem;
+    box-sizing: border-box;
+}
+.contact_input2{
+    display: inline-block;
+    width: 375px ;
+    height: 40px;
+    margin-top: 1.25rem;
+    box-sizing: border-box;
+    
+
+}
+.contact_input3{
+    display: inline-block;
+    width: 800px ;
+    margin-top: 1.25rem;
+    height: 40px;
+    box-sizing: border-box;
+
+}
+.contact_button{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 12.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin-top: 1.875rem;
+    display: block;
+    cursor: pointer;
+    
+}
