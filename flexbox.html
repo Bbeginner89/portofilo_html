@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox darslar</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: blue;
+            height: 500px;
+            /*flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: stretch;*/
+            
+        }
+        .flex-item{
+            padding: 30px;
+            background-color: aliceblue;
+            margin: 10px;
+            
+
+        }
+        /*.flex-grow{
+            flex-grow: 5;
+        }*/
+        .flex-shrink{
+            flex-shrink: 6;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex-grow">Flex item 1</div>
+        <div class="flex-item">Flex item 2</div>
+        <div class="flex-item">Flex item 3</div>
+        <div class="flex-item">Flex item 4</div>
+        <div class="flex-item">Flex item 5</div>
+        <div class="flex-item">Flex item 6</div>
+        <div class="flex-item">Flex item 7</div>
+        <div class="flex-item">Flex item 8</div>
+        <div class="flex-item flex-shrink">Flex item 9</div>
+    </div>
+</body>
+</html>
